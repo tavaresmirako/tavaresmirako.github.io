@@ -1,9 +1,19 @@
 body{
     background-color: rgb(red, green, blue);
-
-
 }
 mark{
-    background-color: rgb(rgb(218, 0, 0), rgb(59, 73, 59), blue);
+    background-color: rgb(rgb(218 , 07 , 40) ; 
 }
 
+#para-block{
+    font-weight:bold;
+}
+
+.fundo-claro{
+    background-color: #fff;
+
+}
+
+.fundo-escuro{
+   background-color: #aaa;
+}
