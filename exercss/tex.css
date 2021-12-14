@@ -2,19 +2,19 @@
 body{
     background-color:rgb(red, green, blue);
 }
-mark {
+mark{
     background-color:rgb(red, green, blue);
 }
 
-#para-block {
+#para-block{
     font-weight:bold;
 }
 
-.fundo-claro {
+.fundo-claro{
     background-color: #fff;
 
 }
 
-.fundo-escuro {
+.fundo-escuro{
    background-color: #aaa;
 }
