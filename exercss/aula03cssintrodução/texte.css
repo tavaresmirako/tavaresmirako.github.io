@@ -1,8 +1,9 @@
+@charset "UTF-8";
 body{
-    background-color: rgb(red, green, blue);
+    background-color:rgb(red, green, blue);
 }
 mark{
-    background-color: rgb(rgb(218 , 07 , 40) ; 
+    background-color:rgb(red, green, blue);
 }
 
 #para-block{
