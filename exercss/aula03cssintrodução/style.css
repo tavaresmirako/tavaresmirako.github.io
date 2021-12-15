@@ -1,6 +1,6 @@
 @charset "UTF-8";
 body{
-     background-color:rgb(rgb(250, 192, 2), green, blue)
+     background-color: yellow;
      font-family: Arial, Helvetica, sans-serif;
      font-size: 20px;
      
@@ -8,7 +8,7 @@ body{
 
 h1{
     color: darkmagenta;
-    background-color: lightblue;
+    background-color: rgb(201, 230, 173);
 
 }
 

@@ -6,15 +6,24 @@ mark{
     background-color:rgb(red, green, blue);
 }
 
-#para-block{
+#para-block, .texto-azul{
     font-weight:bold;
 }
 
 .fundo-claro{
-    background-color: rgb(134, 12, 12);
+    background-color: rgb(80, 79, 80);
 
 }
 
 .fundo-escuro{
    background-color: #aaa;
+}
+.texto-azul{
+    font-size: 2em;
+    color: blue;    
+}
+div  p{
+    color: blue;
+    text-align: justify;
+    font-size: 1em;
 }
