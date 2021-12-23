@@ -1,5 +1,8 @@
 fieldset{
-    width: 700px ;
+    width: 500px ;
+    
+
+    }
 
 
 
@@ -8,4 +11,22 @@ input{
       display: block;
       margin-left: 40px;
        width: 520 px;
+}
+table{
+    border: solid#333;
+    margin: 20px;
+    width: 500px;
+}
+
+th{
+    text-align:left;
+
+
+}
+th:first-child{
+    width: 400px;;
+
+}
+.cinza{
+    background-color:#aaa ;
 }
