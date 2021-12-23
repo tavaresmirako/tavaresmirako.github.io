@@ -1,8 +1,20 @@
+*{
+    box-sizing:border-box;
+
+}
 fieldset{
+
     width: 700px;
+    padding: 20px;
+    border: solid #000;
 
 }
 input{
       display: block;
       margin-left: 40px;
+
+}
+input{
+    width:500px;
+
 }
