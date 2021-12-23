@@ -1,6 +1,12 @@
 @charset "UTF-8";
 body{
      background-color: yellow;
+     background-image: url(rio-de-janeiro-brasil-fd3caa50-30e8-4538-9007-54de6093116b.jpg);
+     background-repeat:no-repeat;
+     background-size: 35%;
+     background-repeat: repeat-x;
+     background-position: center;
+     background-attachment: fixed;
      font-family: Arial, Helvetica, sans-serif;
      font-size: 20px;
      
