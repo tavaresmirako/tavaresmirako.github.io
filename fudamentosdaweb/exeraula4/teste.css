@@ -1,32 +1,57 @@
+*{
+    box-sizing:border-box;
+}
 fieldset{
-    width: 500px ;
-    
 
-    }
-
-
+    width: 700px;
+    padding: 30px;
+    border: solid #000;
 
 }
 input{
       display: block;
       margin-left: 40px;
-       width: 520 px;
+
+}
+input{
+    width:500px;
+
 }
 table{
-    border: solid#333;
+    border: solid #333;
     margin: 20px;
     width: 500px;
 }
-
 th{
     text-align:left;
+}
+th:first-child(2){
+    width: 400px;
+    background-color: rgb(70, 50, 24);
+}
 
+tr:nth-child(2n+1){
+    background-color: rgb(121, 106, 106) ;
 
 }
-th:first-child{
-    width: 400px;;
+ tr:last-child {
+     background-color: #f44;
+ }
+ p::first-letter{
+    font-size:4rem ;
+    float:left;
+}
+img{
+    float:left;
+}
+ 
+div > h1{ /* todos h1 que esistirem dentro de divs */
+    font-family: monospace;
 
 }
-.cinza{
-    background-color:#aaa ;
-}
+
+ 
+
+ 
+
+
