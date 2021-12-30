@@ -1,2 +1,0 @@
-#tavaresmirako.github.io
-
