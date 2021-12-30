@@ -22,6 +22,10 @@ img{
 
 }
 
+body{
+    margin: 0;
+}
+
 
 section{
     width: 960px;
@@ -38,13 +42,13 @@ header{
 }
 header h1{
     /*altera todos os h1 que sejam decendentes de header*/
-    margin:2px;
-    padding-top:10px;
+    margin:0;
+    padding-top:15px;
     font-size: 1.4rem;
 }
 
 header h1::first-letter{
-    font-size: 1.4rem;
+    font-size: 1.3rem;
 }
 header mark{
     background-color: var(--background-gray);
@@ -55,13 +59,14 @@ header mark{
 /*descricao de servicos*/
 header h3{
     width: 400px;
-    line-height:1.4em;
+    line-height:1.9rem;
+    font-size: 1.9rem;
     
 }
 
  header p{
      width: 380px;
-     line-height: 2.4em;
+     line-height: 2.0em;
      font-size: 0.9rem;
 
  } 
@@ -82,7 +87,7 @@ header figcaption{
     color: var(--orange);
     width: 200px;
     padding: 10px;
-    border-radius: 5px 20px 30px;
+    border-radius: 5px 20px 10px 30px;
 }
 .phone{
     color:var(--font-white);
@@ -90,6 +95,7 @@ header figcaption{
 
 header nav{
     background-color: var(--background-blue);
+    
     
 }
 
@@ -122,6 +128,8 @@ header a{
 
 main{
     color:var(--font-blue);
+    display:flex;
+    flex-direction: row;
 }
 
  main section{
@@ -131,7 +139,7 @@ main{
  }
  
 main article{
-    width: 300px; 
+    width: 320px; 
      
 
 }
@@ -145,7 +153,7 @@ main section > article{
 main article figure{
     position: relative;
     margin: 0;
-    width: 120%;
+    
 }
 
 main article figcaption{
