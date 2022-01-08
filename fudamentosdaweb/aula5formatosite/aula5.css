@@ -1,0 +1,254 @@
+:root {
+       
+    --fundo-azul: rgb(0, 27, 39);
+    --azul-fonte: rgb(0, 157, 235);
+    --azul-inativo: rgb(0, 34, 48);
+    --azul-box:  rgb(0, 98, 153);
+    --azul-claro: rgb(204,236,254);
+    --branco:#fff;
+}
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing:border-box;
+}
+
+body {
+     background-color: var(--fundo-azul);
+    
+}
+
+/**
+Definições do header 
+*/
+
+header{
+    color: var(--branco);
+}
+
+header h1{
+    color: uppercase;
+    font-weight: normal;
+
+}
+header span{
+    color: var(--azul-fonte);
+}
+/**
+Definições do header 
+*/
+main{
+    background-color: var(--branco);
+    color:var(--branco);
+}
+#banner {
+    background-image: url(../aula5formatosite/PNG-surf.jpg);
+    background-size: 100%;
+    background-position: center;
+
+}#boxes, #organizacao{
+    display:flex;
+    flex-direction:row;
+    flex:0 0 auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+#boxes .box{
+    background-color: var(--azul-box);
+    
+
+}
+.box h3{
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+#organizacao{
+    color: var(--azul-inativo);
+    display: flex;
+    flex-direction: row;
+
+}
+
+#organizacao figure {
+    padding: 0;
+    display: inline-block;
+  
+    margin-right:5.8px;
+    
+ }
+#organizacao p{
+    display: inline-block;
+    margin-left : 56px;
+    max-height: 5px;
+   
+}
+
+footer nav, #organizacao blockquote {
+    background-color: var(--azul-claro);
+}
+/**
+Definições do footer 
+*/
+footer ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0;
+    padding: 20px;
+
+    list-style: none;
+}
+footer li{ 
+    margin: 0 15px;
+}
+footer a {
+    font-size: 0.9em;
+    color: var(--azul-inativo);
+    text-decoration: none;
+}
+
+/*resoluçao de celular*/
+@media (mix-width:767px) {
+    header, main, footer{
+        width: 98%;
+        margin: auto;
+    }
+
+}
+
+/*resoluçao de tablet*/
+@media (min-width:768px) and (max-width:991px){
+    header, main, footer{
+        width: 750px;
+        margin: auto;
+    }
+   
+    #banner {
+    height: 400px;
+  
+}
+
+}
+ #boxes.box{
+    width: 48%;
+    margin: 10px 0 ;
+    padding: 20px;
+}
+
+#boxes.box:last-child{
+    width: 100%;
+}
+
+/*resoluçao de Desktop*/
+@media (min-width:992px){
+    header, main, footer{
+        width: 960px;
+        margin:auto;
+    }
+    #boxes, #organizacao{
+        display:flex;
+        flex-direction:row;
+        flex:0 0 auto;
+        flex-wrap:wrap;
+        
+    
+    }
+    }
+    header h1, header nav {
+       display: inline;
+       flex-direction:row ;
+      
+    }
+    header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    header ul {
+      display: flex;
+      flex-direction:row ;
+      list-style: none;
+      
+      
+
+}
+   header li {
+       margin: 0 10px;
+   }
+
+   header a{
+       color:var(--branco);
+       text-decoration: none;
+   }
+   
+   /*
+          definiçoes main
+   */
+
+   main {
+       padding:20px;
+   }
+   
+   #banner  {
+        height: 400px;
+
+   }
+   #banner h2{
+        position: relative;
+        top:100px;
+        left:50px;
+         margin: 0;
+
+        font-size: 3em;
+        font-weight: normal;
+        text-transform: uppercase;
+   }
+
+   #banner p{
+    position: relative;
+    top:100px;
+    left:50px;
+     margin: 0;
+
+    font-size: 0.8em;
+    width: 300px;
+   
+} 
+   .box{
+       width: 32%;
+       margin: 10px 0;
+       padding: 20px;
+   }
+    
+    .box h3{
+      margin-top:0 ;
+    }
+    .box p{
+        font-size: 0.8em;
+    }
+    .box-2{
+        width: 68%;
+        padding: 9px ;
+        margin: 9px 4;
+        
+    } 
+    .box-2 p{
+        width: 220px;
+        margin-top: 15px;
+        margin-left: 50px;
+          
+       
+    }
+    #organanizacao h3{
+        margin-top:0;
+        text-transform: uppercase;
+        font-weight: normal;
+    }
+    #organizacao blockquote{
+        margin: 0;
+        padding: 20px;
+    }
+}

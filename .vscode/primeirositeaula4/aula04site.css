@@ -1,3 +1,4 @@
+
 :root{
     --background-gray:rgb(237,237,236);
     --background-blue: rgb(13,31,41);
@@ -128,8 +129,7 @@ header a{
 
 main{
     color:var(--font-blue);
-    display:flex;
-    flex-direction: row;
+    
 }
 
  main section{
@@ -139,26 +139,32 @@ main{
  }
  
 main article{
-    width: 320px; 
-     
-
+    width: 300px; 
+    border: 10px solid var(--backgeound-blue);
 }
 main section > article{
-    border: 6px solid var(--backgeound-gray);
-    bottom: 150px;
-    margin: 7;    
+    border:6px solid var(--backgeound-gray);
+    bottom:150px;
+    margin:7;    
 
 }   
 
 main article figure{
     position: relative;
     margin: 0;
+    width:100%;
     
 }
 
 main article figcaption{
     position: absolute;
-    bottom:6px;
+    bottom:4px;
+    width:100%;
+    background-color:var(--input-blue);
+    opacity: 0.5;
+    color:var(--font-white);
+    padding:5px;
+
 }
 
 main article img{
