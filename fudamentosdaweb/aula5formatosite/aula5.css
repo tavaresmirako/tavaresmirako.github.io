@@ -242,6 +242,13 @@ footer a {
           
        
     }
+    #oganizacao figure{
+        width: 32px;
+        margin: 0;
+    
+
+
+    }
     #organanizacao h3{
         margin-top:0;
         text-transform: uppercase;
